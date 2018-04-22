@@ -143,7 +143,7 @@ npm run sql seed:run
 use a [`~/.pgpass`](https://www.postgresql.org/docs/current/static/libpq-pgpass.html) file to automate your passwords!
 
 ```shell
-echo "localhost:5432:*:postgres:password" > ~/.pgpass
+echo "localhost:5432:*:postgres:postgres" > ~/.pgpass
 chmod 600 ~/.pgpass
 ```
 
