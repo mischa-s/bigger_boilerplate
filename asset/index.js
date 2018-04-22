@@ -16,7 +16,7 @@ function AssetServer () {
 
     // server.use(favicon(join(getAssetDirectory(config), 'favicon.ico')))
 
-    server.use('/', express.static(getAssetDirectory(config)))
+    // server.use('/', express.static(getAssetDirectory(config)))
 
     const compilerHandler = Compiler(join(__dirname, '../app'))
     const compiler = compilerHandler.compiler
