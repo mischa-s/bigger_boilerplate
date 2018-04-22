@@ -1,0 +1,24 @@
+{
+  "authentication": {
+    "secret": "secret",
+    "strategies": [
+      "jwt"
+    ],
+    "jwt": {
+      "audience": "http://yipalumni.network",
+      "expiresIn": "100y"
+    }
+  },
+  "mailer": {
+    "from": "hello@yipalumni.network"
+  },
+  "sql": {
+    "migrations": {
+      "directory": "sql/migrations"
+    },
+    "seeds": {
+      "directory": "sql/seeds"
+    },
+    "client": "postgresql"
+  }
+}
