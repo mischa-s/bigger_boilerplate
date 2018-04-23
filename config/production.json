@@ -11,5 +11,8 @@
   },
   "sql": {
     "connection": "DATABASE_URL"
+  },
+  "asset": {
+    "directory": "asset/data",
   }
 }
