@@ -62,7 +62,7 @@ function createHtml ({ assetUrl, log, setupUrl, theme, user }) {
       vertical-align="middle"
       background-width="600px"
       background-height="469px"
-      background-color="#2a3448"
+      background-color="#FFF3E0"
       padding="100px 0px"
     >
       <mj-text

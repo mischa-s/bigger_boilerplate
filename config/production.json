@@ -10,6 +10,6 @@
     "url": "REDIS_URL"
   },
   "sql": {
-    "connection": "SQL_CONNECTION"
+    "connection": "DATABASE_URL"
   }
 }
