@@ -12,7 +12,13 @@
   "sql": {
     "connection": "DATABASE_URL"
   },
+  "api": {
+    "port": "8001",
+    "url": "https://yip-network.herokuapp.com"
+  },
   "asset": {
-    "directory": "asset/data"
-  }
+    "directory": "asset/data",
+    "port": "8002",
+    "url": "https://yip-network.herokuapp.com"
+  },
 }
