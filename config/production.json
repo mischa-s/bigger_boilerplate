@@ -20,5 +20,5 @@
     "directory": "asset/data",
     "port": "8002",
     "url": "https://yip-network.herokuapp.com"
-  },
+  }
 }
