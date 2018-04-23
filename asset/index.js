@@ -13,7 +13,7 @@ const getAssetDirectory = path(['asset', 'directory'])
 function AssetServer () {
   return Server('asset', (server, config) => {
     const log = server.get('logger')
-    console.log('thesssssssssssse???', getAssetDirectory)
+    console.log('thesssssssssssse???', join(getAssetDirectory(config), 'favicon.ico'))
     server.use(favicon(join(getAssetDirectory(config), 'favicon.ico')))
 
     server.use('/', express.static(getAssetDirectory(config)))
