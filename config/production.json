@@ -13,6 +13,6 @@
     "connection": "DATABASE_URL"
   },
   "asset": {
-    "directory": "asset/data",
+    "directory": "asset/data"
   }
 }
