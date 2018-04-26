@@ -1,9 +1,10 @@
 {
   "mailer": {
-    "service": "MAILER_SERVICE",
+    "host":"MAILGUN_SMTP_SERVER",
+    "port":"MAILGUN_SMTP_PORT",
     "auth": {
-      "user": "MAILER_AUTH_USER",
-      "pass": "MAILER_AUTH_PASS"
+      "user": "MAILGUN_SMTP_LOGIN",
+      "pass": "MAILGUN_SMTP_PASSWORD"
     }
   },
   "redis": {
@@ -13,12 +14,13 @@
     "connection": "DATABASE_URL"
   },
   "api": {
-    "port": "8001",
-    "url": "https://yip-network.herokuapp.com"
+    "port": "PORT",
+    "url": "API_PORT"
+  },
+  "authentication": {
+    "secret": "secret"
   },
   "asset": {
-    "port": "8002",
-    "directory": "asset/data",
-    "url": "https://yip-network.herokuapp.com"
+    "url": "ASSET_URL"
   }
 }
