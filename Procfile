@@ -1,3 +1,2 @@
-api: node ./api/bin
-asset: node ./asset/bin
+web: node ./api/bin
 worker: node ./worker/bin
