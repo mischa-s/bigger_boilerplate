@@ -1,5 +1,10 @@
 # YIP Alumni Network Map
 
+netlify env variables
+---------------
+node.env = production
+api url
+asset url
 
 ## table of contents
 

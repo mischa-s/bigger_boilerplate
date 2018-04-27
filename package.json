@@ -15,7 +15,7 @@
     "bundle:build": "bankai build ./app",
     "dist:copy": "cp asset/data/* ./dist",
     "dist:build": "npm run bundle:build",
-    "dist:push": "gh-pages -d dist",
+    "dist:push": "git push origin master",
     "dist": "npm-run-all -s dist:build dist:copy dist:push",
     "lint": "standard",
     "start": "npm-run-all -p start:*",
@@ -23,7 +23,6 @@
     "start:asset": "node ./asset/bin",
     "start:worker": "node ./worker/bin",
     "sql": "knex --knexfile sql/config.js --cwd .",
-    "start": "npm run prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "browserify": {
